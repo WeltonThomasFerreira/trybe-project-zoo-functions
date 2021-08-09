@@ -51,7 +51,7 @@ function countAnimals(species) {
     const count = currentValue.residents.length;
     acc[name] = count;
     return acc;
-  },{});
+  }, {});
 }
 
 console.log(countAnimals());
