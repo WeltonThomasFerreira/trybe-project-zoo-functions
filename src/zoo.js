@@ -87,10 +87,12 @@ function getOldestFromFirstSpecies(id) {
   return [theOldest.name, theOldest.sex, theOldest.age];
 }
 
-console.log(getOldestFromFirstSpecies('c5b83cb3-a451-49e2-ac45-ff3f54fbe7e1'));
-
 function increasePrices(percentage) {
-  // seu código aqui
+  Object.keys(data.prices).forEach((element) => {
+    let result = data.prices[element] + (data.prices[element] * (percentage / 100));
+    result = parseFloat((result + 0.001).toFixed(2));
+    data.prices[element] = result;
+  });
 }
 
 function getEmployeeCoverage(idOrName) {
