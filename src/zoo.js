@@ -1,4 +1,5 @@
 const data = require('./data');
+const schedule = require('./schedule');
 
 function getSpeciesByIds(...ids) {
   return ids.map((id) => data.species.find((specie) => specie.id === id));
@@ -74,7 +75,10 @@ function getAnimalMap(options) {
 }
 
 function getSchedule(dayName) {
-  // seu código aqui
+  if (dayName) {
+    return schedule.getScheduleOfTheDay(data, dayName);
+  }
+  return schedule.getFullSchedule(data);
 }
 
 function getOldestFromFirstSpecies(id) {
@@ -89,7 +93,7 @@ function getOldestFromFirstSpecies(id) {
 
 function increasePrices(percentage) {
   Object.keys(data.prices).forEach((element) => {
-    let result = data.prices[element] + (data.prices[element] * (percentage / 100));
+    let result = data.prices[element] + data.prices[element] * (percentage / 100);
     result = parseFloat((result + 0.001).toFixed(2));
     data.prices[element] = result;
   });
