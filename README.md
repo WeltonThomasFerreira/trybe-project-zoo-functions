@@ -28,7 +28,7 @@ Funções para atender aos requisitos propostos e garantir que todas as funçõe
   <img src="./readme/images/function-8.png" alt="Código da função 8" style="width: 720px" />
   <img src="./readme/images/function-9.png" alt="Código da função 9" style="width: 720px" />
   <img src="./readme/images/function-10.png" alt="Código da função 10" style="width: 720px" />
-  <img src="./readme/images/function-111.png" alt="Código da função 11" style="width: 720px" />
+  <img src="./readme/images/function-11.png" alt="Código da função 11" style="width: 720px" />
 </div>
 
 ## Resultados
