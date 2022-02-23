@@ -1,7 +1,7 @@
 # Trybe Project Zoo Functions 04/08/2021
 <br>
 <div style="display: inline_block">
-  <img src="https://img.shields.io/badge/javascript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E&logoWidth=20"/>
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=fff&logoWidth=20"/>
 </div>
 <br>
 
